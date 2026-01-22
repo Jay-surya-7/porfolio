@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jaya Surya | Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">JayaSurya</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <span class="hello">Hello, I'm</span>
+    <h1>Jaya Surya</h1>
+    <h2 id="typing"></h2>
+
+    <p class="hero-desc">
+      An Information Technology graduate passionate about data analysis,
+      problem-solving, and transforming raw datasets into meaningful insights.
+    </p>
+
+    <a href="assets/resume.pdf" class="cv-btn" download>Download CV</a>
+  </div>
+
+  <div class="hero-image">
+    <img src="assets/hero.png" alt="JayaSurya">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <div class="about-image">
+      <img src="assets/about.png" alt="About JayaSurya">
+    </div>
+
+    <div class="about-content">
+      <h2>About Me</h2>
+
+      <p class="about-text">
+        I’m Jaya Surya, an Information Technology graduate with a strong interest in data
+        analysis and analytics-driven decision making. I specialize in Python and SQL
+        and enjoy working with structured datasets to identify patterns and trends.
+        My experience includes data cleaning, exploratory analysis, and visualization
+        using modern analytical tools. I focus on converting complex data into clear,
+        actionable insights that support business and operational goals. I’m continuously
+        improving my technical skills and enjoy solving real-world problems through data.
+      </p>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab active" onclick="showTab('prog', this)">Programming</button>
+        <button class="tab" onclick="showTab('tech', this)">Technologies</button>
+        <button class="tab" onclick="showTab('edu', this)">Education</button>
+      </div>
+
+      <div class="tab-wrapper">
+        <div id="prog" class="tab-content active">
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+
+        <div id="tech" class="tab-content">
+          <ul>
+            <li>Pandas, NumPy</li>
+            <li>Matplotlib, Seaborn</li>
+            <li>Power BI, Git</li>
+          </ul>
+        </div>
+
+        <div id="edu" class="tab-content">
+          <ul>
+            <li>B.Tech – Information Technology</li>
+            <li>Vel Tech Multi Tech Engineering College</li>
+            <li>Chennai</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Airline Delay Analysis</h3>
+      <p>Analyzed airline delay patterns using Python and visualization techniques.</p>
+      <a href="https://github.com/Jay-surya-7/Airline_Delay_Analysis_Python" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Customer Churn Analysis</h3>
+      <p>Identified churn-driving factors from customer datasets.</p>
+      <a href="https://github.com/Jay-surya-7/Customer-Churn-Analysis" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Library Management System</h3>
+      <p>Built a Python-based system for managing library operations.</p>
+      <a href="https://github.com/Jay-surya-7/Library-Management-System" target="_blank">View Project</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let’s Connect</h2>
+  <div class="contact-links">
+    <a href="mailto:jayasuryabalaji.4@gmail.com">📧 Email</a>
+    <a href="https://github.com/Jay-surya-7" target="_blank">💻 GitHub</a>
+    <a href="https://www.linkedin.com/in/jaya-surya-balaj" target="_blank">🔗 LinkedIn</a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
